@@ -37,37 +37,6 @@ llm-project/
 
 ---
 
-## Setup & Running
-1. **Clone the repo**
-	```bash
-	git clone <your_repo_url>
-	cd <project_folder>
-	```
-2. **Prepare environment**
-	- Windows:
-	  ```powershell
-	  python -m venv venv
-	  .\venv\Scripts\activate
-	  pip install -r requirements.txt
-	  ```
-	- Linux/Mac:
-	  ```bash
-	  python3 -m venv venv
-	  source venv/bin/activate
-	  pip install -r requirements.txt
-	  ```
-3. **Add your `.env` file**:
-	```
-	API_KEY=your-openai-key-here
-	```
-4. **Add your book summaries PDF**:
-	- Place your `book_summaries.pdf` in the `data/` folder.
-5. **Run the app**
-	```bash
-	streamlit run main.py
-	```
-
----
 
 ## Example Questions
 - I want a book about freedom and social control.

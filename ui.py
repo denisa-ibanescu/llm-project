@@ -1,4 +1,3 @@
-# ui.py
 import streamlit as st
 
 def launch_ui(rag):

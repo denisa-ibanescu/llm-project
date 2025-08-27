@@ -1,4 +1,3 @@
-# rag_engine.py
 import chromadb
 from openai import OpenAI
 from chromadb.config import Settings

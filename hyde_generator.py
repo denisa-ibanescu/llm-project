@@ -1,4 +1,3 @@
-# hyde_generator.py
 from openai import OpenAI
 
 class HyDEGenerator:

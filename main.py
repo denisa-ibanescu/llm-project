@@ -1,4 +1,3 @@
-# main.py (Chromadb version for assignment)
 import os
 from dotenv import load_dotenv
 from document_loader import DocumentLoader

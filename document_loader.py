@@ -1,4 +1,3 @@
-# document_loader.py
 from PyPDF2 import PdfReader
 
 class DocumentLoader:

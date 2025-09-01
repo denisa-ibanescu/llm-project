@@ -7,7 +7,7 @@ from ui import launch_ui
 
 def main():
     load_dotenv()
-    api_key = os.getenv("API_KEY")
+    api_key = os.getenv("OPENAI_API_KEY")
 
     docs = DocumentLoader("data/book_summaries.pdf").load()
 
